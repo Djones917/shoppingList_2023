@@ -3,3 +3,7 @@
 body {
     font-family: 'Nosifer', sans-serif;
 }
+
+ul {
+    list-style-type: none;
+}
