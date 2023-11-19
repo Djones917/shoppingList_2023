@@ -7,3 +7,10 @@ body {
 ul {
     list-style-type: none;
 }
+
+.addBtn {
+    background-color: greenyellow;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
