@@ -4,6 +4,11 @@ body {
     font-family: 'Nosifer', sans-serif;
 }
 
+.shopping List {
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
 ul {
     list-style-type: none;
 }
