@@ -28,4 +28,8 @@ body {
       border-radius: 10px;
   }
 
+  .addBtn:hover {
+    background-color: rgb(147, 72, 203);
+  }
+
  
