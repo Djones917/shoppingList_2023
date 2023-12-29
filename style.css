@@ -22,14 +22,14 @@ body {
   .addBtn {   
       margin-left: auto;
       margin-right: auto;    
-      background-color: greenyellow;
+      background-color: #78f582;
       width: 50%;
       height: 50px;
       border-radius: 10px;
   }
 
   .addBtn:hover {
-    background-color: rgb(147, 72, 203);
+    background-color: #1ece2d;
   }
 
  
