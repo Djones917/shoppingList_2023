@@ -21,7 +21,8 @@ body {
 
   .addBtn {   
       margin-left: auto;
-      margin-right: auto;    
+      margin-right: auto;   
+      margin-bottom: 30px; 
       background-color: #78f582;
       width: 50%;
       height: 50px;
