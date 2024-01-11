@@ -13,6 +13,7 @@ body {
     border: 2px solid black;
     background-color: rgb(126, 177, 228);
     text-align: center;
+    box-shadow: 10px 10px rgb(223, 234, 236);
 }  
   
   ul {
