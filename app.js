@@ -4,6 +4,11 @@ const itemList = document.getElementById('item-list');
 
 function addItem(e) {
   e.preventDefault();
+
+  // Validate
+  if (itemInput.value === '') {
+     alert('Add an item');
+  }
 }
 
 // EVENT LISTENERS
