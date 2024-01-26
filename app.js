@@ -8,7 +8,9 @@ function addItem(e) {
   // Validate
   if (itemInput.value === '') {
      alert('Add an item');
+     return;
   }
+  console.log('success!');
 }
 
 // EVENT LISTENERS
