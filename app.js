@@ -22,5 +22,11 @@ function addItem(e) {
   const button = createButton('remove-item btn-link text-red');
 }
 
+function createButton(classes) {
+   const button = createElement('button');
+   button.className = classes;
+   return button;
+}
+
 // EVENT LISTENERS
 itemForm.addEventListener('submit', addItem);
