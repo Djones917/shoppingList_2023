@@ -19,7 +19,7 @@ function addItem(e) {
   const li = document.createElement('li');
   li.appendChild(document.createTextNode(newItem));
 
-  console.log(li);
+  const button = createButton('remove-item btn-link text-red');
 }
 
 // EVENT LISTENERS
