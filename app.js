@@ -22,10 +22,17 @@ function addItem(e) {
   const button = createButton('remove-item btn-link text-red');
 }
 
+
 function createButton(classes) {
-   const button = createElement('button');
+   const button = document.createElement('button');
    button.className = classes;
    return button;
+}
+
+function createIcon(classes) {
+  const icon = document.createElement('i');
+  i.className = classes;
+  return icon;
 }
 
 // EVENT LISTENERS
