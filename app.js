@@ -8,17 +8,14 @@ function addItem(e) {
   e.preventDefault();
 
   const newItem = itemInput.value;
-
   // Validate
   if (newItem === '') {
      alert('Add an item');
      return;
-  }
-  
+  }  
   // Create List Item
   const li = document.createElement('li');
   li.appendChild(document.createTextNode(newItem));
-
   const button = createButton('remove-item btn-link text-red');
   li.appendChild(button);
   itemList.appendChild(li);
@@ -39,6 +36,13 @@ function createIcon(classes) {
   icon.className = classes;
   return icon;
 }
+
+function removeItem(e) {
+  if (e.target.parentElement.classList.contains('remove-item')) {
+    e.target.parentElement.parentElement.remove();
+  }
+}
+
 
 // EVENT LISTENERS
 itemForm.addEventListener('submit', addItem);
