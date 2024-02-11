@@ -42,3 +42,4 @@ function createIcon(classes) {
 
 // EVENT LISTENERS
 itemForm.addEventListener('submit', addItem);
+itemList.addEventListener('click', removeItem);
