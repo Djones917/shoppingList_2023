@@ -1,7 +1,7 @@
 const itemForm = document.getElementById('item-form');
 const itemInput = document.getElementById('item-input');
 const itemList = document.getElementById('item-list');
-
+const itemClear = document.getElementById('clear');
 
 
 function addItem(e) {
