@@ -44,7 +44,9 @@ function removeItem(e) {
 }
 
 function clearItems() {
-  console.log('Clear works!!!');
+   while (itemList.firstChild) {
+    itemList.removeChild(itemList.firstChild);
+   }
 }
 
 // EVENT LISTENERS
