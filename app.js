@@ -43,6 +43,9 @@ function removeItem(e) {
   }
 }
 
+function clearItems() {
+  console.log('Clear works!!!');
+}
 
 // EVENT LISTENERS
 itemForm.addEventListener('submit', addItem);
