@@ -49,6 +49,10 @@ function clearItems() {
    }
 }
 
+function checkUI() {
+  
+}
+
 // EVENT LISTENERS
 itemForm.addEventListener('submit', addItem);
 itemList.addEventListener('click', removeItem);
