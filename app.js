@@ -51,7 +51,9 @@ function clearItems() {
 }
 
 function checkUI() {
-  
+   if (items.length ===0) {
+
+   }
 }
 
 // EVENT LISTENERS
