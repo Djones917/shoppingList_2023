@@ -53,7 +53,11 @@ function clearItems() {
 
 function checkUI() {
    if (items.length ===0) {
-
+      clearBtn.style.display = 'none';
+      itemFilter.style.display = 'none';
+   } else {
+      clearBtn.style.display = 'block';
+      itemFilter.style.display = 'block';
    }
 }
 
@@ -61,3 +65,5 @@ function checkUI() {
 itemForm.addEventListener('submit', addItem);
 itemList.addEventListener('click', removeItem);
 clearBtn.addEventListener('click', clearItems);
+
+checkUI();
