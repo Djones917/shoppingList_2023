@@ -60,6 +60,10 @@ function clearItems() {
    checkUI();
 }
 
+function filterItems(e) {
+
+}
+
 function checkUI() {
    const items = itemList.querySelectorAll('li');   
    if (items.length ===0) {
