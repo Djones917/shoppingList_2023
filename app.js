@@ -61,7 +61,7 @@ function clearItems() {
 }
 
 function filterItems(e) {
-
+   const text = e.target.value;
 }
 
 function checkUI() {
