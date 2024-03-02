@@ -64,7 +64,9 @@ function filterItems(e) {
    const items = itemList.querySelectorAll('li');   
    const text = e.target.value.toLowerCase();
 
-   console.log(text);
+   items.forEach(item => {
+      console.log(item);
+   });
 }
 
 function checkUI() {
