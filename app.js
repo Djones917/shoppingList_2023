@@ -65,7 +65,9 @@ function filterItems(e) {
    const text = e.target.value.toLowerCase();
 
    items.forEach(item => {
-      console.log(item);
+      const itemName = item.firstChild;
+
+      console.log(itemName);
    });
 }
 
