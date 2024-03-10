@@ -67,7 +67,9 @@ function filterItems(e) {
    items.forEach(item => {
       const itemName = item.firstChild.textContent.toLowerCase;
 
-      console.log(itemName);
+      if (itemName.indexOf(text) != -1) {
+         console.log(true);
+      }
    });
 }
 
