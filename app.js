@@ -69,6 +69,8 @@ function filterItems(e) {
 
       if (itemName.indexOf(text) != -1) {
          console.log(true);
+      } else {
+         console.log(false);
       }
    });
 }
