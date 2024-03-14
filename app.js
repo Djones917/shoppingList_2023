@@ -64,8 +64,8 @@ function filterItems(e) {
    const items = itemList.querySelectorAll('li');   
    const text = e.target.value.toLowerCase();
 
-   items.forEach(item => {
-      const itemName = item.firstChild.textContent.toLowerCase;
+   items.forEach((item) => {
+      const itemName = item.firstChild.textContent.toLowerCase();
 
       if (itemName.indexOf(text) != -1) {
          console.log(true);
