@@ -70,7 +70,7 @@ function filterItems(e) {
       if (itemName.indexOf(text) != -1) {
          item.style.display = 'flex';
       } else {
-         console.log(false);
+         item.style.display = 'none';
       }
    });
 }
