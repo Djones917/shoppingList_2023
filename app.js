@@ -68,7 +68,7 @@ function filterItems(e) {
       const itemName = item.firstChild.textContent.toLowerCase();
 
       if (itemName.indexOf(text) != -1) {
-         console.log(true);
+         item.style.display = 'flex';
       } else {
          console.log(false);
       }
