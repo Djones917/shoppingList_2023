@@ -87,7 +87,7 @@ function checkUI() {
 }
 
 // EVENT LISTENERS
-itemForm.addEventListener('submit', addItem);
+itemForm.addEventListener('submit', onaddItemSubmit);
 itemList.addEventListener('click', removeItem);
 clearBtn.addEventListener('click', clearItems);
 itemFilter.addEventListener('input', filterItems);
