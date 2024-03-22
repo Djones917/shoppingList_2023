@@ -6,7 +6,7 @@ const itemFilter = document.getElementById('filter');
 
 
 
-function addItem(e) {
+function onAddItemSubmit(e) {
   e.preventDefault();
 
   const newItem = itemInput.value;
@@ -87,7 +87,7 @@ function checkUI() {
 }
 
 // EVENT LISTENERS
-itemForm.addEventListener('submit', onaddItemSubmit);
+itemForm.addEventListener('submit', onAddItemSubmit);
 itemList.addEventListener('click', removeItem);
 clearBtn.addEventListener('click', clearItems);
 itemFilter.addEventListener('input', filterItems);
