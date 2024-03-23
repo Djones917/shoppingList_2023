@@ -29,6 +29,11 @@ function onAddItemSubmit(e) {
 }
 
 
+function addItemToDom(item) {
+
+}
+
+
 function createButton(classes) {
    const button = document.createElement('button');
    button.className = classes;
@@ -37,11 +42,13 @@ function createButton(classes) {
    return button;
 }
 
+
 function createIcon(classes) {
   const icon = document.createElement('i');
   icon.className = classes;
   return icon;
 }
+
 
 function removeItem(e) {
   if (e.target.parentElement.classList.contains('remove-item')) {
@@ -52,6 +59,7 @@ function removeItem(e) {
    }    
   }
 }
+
 
 function clearItems() {
    while (itemList.firstChild) {
@@ -75,6 +83,7 @@ function filterItems(e) {
    });
 }
 
+
 function checkUI() {
    const items = itemList.querySelectorAll('li');   
    if (items.length ===0) {
@@ -85,6 +94,7 @@ function checkUI() {
       itemFilter.style.display = 'block';
    }
 }
+
 
 // EVENT LISTENERS
 itemForm.addEventListener('submit', onAddItemSubmit);
