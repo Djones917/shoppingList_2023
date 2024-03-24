@@ -14,14 +14,7 @@ function onAddItemSubmit(e) {
   if (newItem === '') {
      alert('Add an item');
      return;
-  }  
-  // Create List Item
-  const li = document.createElement('li');
-  li.appendChild(document.createTextNode(newItem));
-  const button = createButton('remove-item btn-link text-red');
-  li.appendChild(button);
-  // Add li to the DOM
-  itemList.appendChild(li);
+  }   
 
   checkUI();
 
@@ -30,7 +23,13 @@ function onAddItemSubmit(e) {
 
 
 function addItemToDom(item) {
-
+   // Create List Item
+  const li = document.createElement('li');
+  li.appendChild(document.createTextNode(newItem));
+  const button = createButton('remove-item btn-link text-red');
+  li.appendChild(button);
+  // Add li to the DOM
+  itemList.appendChild(li);
 }
 
 
