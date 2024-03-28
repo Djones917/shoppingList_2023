@@ -16,6 +16,8 @@ function onAddItemSubmit(e) {
      return;
   }   
 
+  addItemToDom();
+
   checkUI();
 
   itemInput.value = '';
