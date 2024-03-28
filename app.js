@@ -25,7 +25,7 @@ function onAddItemSubmit(e) {
 function addItemToDom(item) {
    // Create List Item
   const li = document.createElement('li');
-  li.appendChild(document.createTextNode(newItem));
+  li.appendChild(document.createTextNode(item));
   const button = createButton('remove-item btn-link text-red');
   li.appendChild(button);
   // Add li to the DOM
