@@ -16,7 +16,7 @@ function onAddItemSubmit(e) {
      return;
   }   
 
-  addItemToDom();
+  addItemToDom(newItem);
 
   checkUI();
 
