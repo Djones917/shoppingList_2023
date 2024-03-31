@@ -34,6 +34,10 @@ function addItemToDom(item) {
   itemList.appendChild(li);
 }
 
+function addItemToStorage(item) {
+   
+}
+
 
 function createButton(classes) {
    const button = document.createElement('button');
