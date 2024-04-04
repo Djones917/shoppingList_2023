@@ -35,7 +35,11 @@ function addItemToDom(item) {
 }
 
 function addItemToStorage(item) {
-   
+   let itemsFromStorage;
+
+   if (localStorage.getItem('items') === null) {
+     
+   }
 }
 
 
