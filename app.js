@@ -38,6 +38,8 @@ function addItemToStorage(item) {
    let itemsFromStorage;
 
    if (localStorage.getItem('items') === null) {
+     itemsFromStorage = [];
+   }else {
      
    }
 }
