@@ -45,7 +45,7 @@ function addItemToStorage(item) {
    itemsFromStorage.push(item);
 
    // Convert to JSON string and put in Local storage
-   localStorage.setItem();
+   localStorage.setItem('items', JSON.stringify(itemsFromStorage));
 }
 
 
