@@ -42,6 +42,10 @@ function addItemToStorage(item) {
    }else {
      itemsFromStorage = JSON.parse(localStorage.getItem('items'));
    }
+   itemsFromStorage.push(item);
+
+   // Convert to JSON string and put in Local storage
+   localStorage.setItem();
 }
 
 
