@@ -60,6 +60,8 @@ function getItemsFromStorage() {
    }else {
      itemsFromStorage = JSON.parse(localStorage.getItem('items'));
    }
+
+   return itemsFromStorage;
 }
 
 function createButton(classes) {
