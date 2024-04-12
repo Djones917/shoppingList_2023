@@ -53,7 +53,13 @@ function addItemToStorage(item) {
 }
 
 function getItemsFromStorage() {
+   let itemsFromStorage;
 
+   if (localStorage.getItem('items') === null) {
+     itemsFromStorage = [];
+   }else {
+     itemsFromStorage = JSON.parse(localStorage.getItem('items'));
+   }
 }
 
 function createButton(classes) {
