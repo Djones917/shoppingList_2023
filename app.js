@@ -38,13 +38,8 @@ function addItemToDom(item) {
 }
 
 function addItemToStorage(item) {
-   let itemsFromStorage;
-
-   if (localStorage.getItem('items') === null) {
-     itemsFromStorage = [];
-   }else {
-     itemsFromStorage = JSON.parse(localStorage.getItem('items'));
-   }
+   const itemsFromStorage = getItemsFromStorage();
+  
    // Add new item to array
    itemsFromStorage.push(item);
 
@@ -131,5 +126,6 @@ itemForm.addEventListener('submit', onAddItemSubmit);
 itemList.addEventListener('click', removeItem);
 clearBtn.addEventListener('click', clearItems);
 itemFilter.addEventListener('input', filterItems);
+document.addEventListener('DOMContentLoaded');
 
 checkUI();
