@@ -126,6 +126,6 @@ itemForm.addEventListener('submit', onAddItemSubmit);
 itemList.addEventListener('click', removeItem);
 clearBtn.addEventListener('click', clearItems);
 itemFilter.addEventListener('input', filterItems);
-document.addEventListener('DOMContentLoaded');
+document.addEventListener('DOMContentLoaded', displayItems);
 
 checkUI();
