@@ -7,7 +7,7 @@ const itemFilter = document.getElementById('filter');
 
 
 function displayItems() {
-
+  const itemsFromStorage = getItemsFromStorage();
 }
 
 
