@@ -6,6 +6,11 @@ const itemFilter = document.getElementById('filter');
 
 
 
+function displayItems() {
+
+}
+
+
 function onAddItemSubmit(e) {
   e.preventDefault();
 
