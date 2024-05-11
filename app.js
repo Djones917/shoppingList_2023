@@ -129,14 +129,13 @@ function checkUI() {
 
 // INITIALIZE APP - SO event listeners are not in the glogal scope
 function init() {
+   // EVENT LISTENERS
+   itemForm.addEventListener('submit', onAddItemSubmit);
+   itemList.addEventListener('click', removeItem);
+   clearBtn.addEventListener('click', clearItems);
+   itemFilter.addEventListener('input', filterItems);
+   document.addEventListener('DOMContentLoaded', displayItems);
 
+   checkUI();
 }
 
-// EVENT LISTENERS
-itemForm.addEventListener('submit', onAddItemSubmit);
-itemList.addEventListener('click', removeItem);
-clearBtn.addEventListener('click', clearItems);
-itemFilter.addEventListener('input', filterItems);
-document.addEventListener('DOMContentLoaded', displayItems);
-
-checkUI();
