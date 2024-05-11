@@ -139,3 +139,4 @@ function init() {
    checkUI();
 }
 
+init();
