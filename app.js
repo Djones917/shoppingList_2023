@@ -89,14 +89,13 @@ function onClickItem(e) {
 
 
 function removeItem(item) {
-   console.log(item);
-//   if (e.target.parentElement.classList.contains('remove-item')) {
-//    if (confirm('Are You Sure?')) {
-//       e.target.parentElement.parentElement.remove();
-
-//       checkUI();
-//    }    
-//   }
+   if (confirm('Are you sure?')) {
+      // Remove item from DOM
+       item.remove();
+      // Remove item from storage
+      removeItemFromStorage(item.textContent);
+       checkUI();
+   }
 }
 
 
