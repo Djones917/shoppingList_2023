@@ -99,6 +99,11 @@ function removeItem(item) {
 }
 
 
+function removeItemFromStorage(item) {
+   
+}
+
+
 function clearItems() {
    while (itemList.firstChild) {
     itemList.removeChild(itemList.firstChild);
