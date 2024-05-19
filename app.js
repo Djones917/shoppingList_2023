@@ -83,7 +83,7 @@ function createIcon(classes) {
 
 function onClickItem(e) {
    if (e.target.parentElement.classList.contains('remove-item')) {
-      removeItem();
+      removeItem(e.target.parentElement.parentElement);
    }
 }
 
