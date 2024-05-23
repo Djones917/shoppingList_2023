@@ -100,7 +100,7 @@ function removeItem(item) {
 
 
 function removeItemFromStorage(item) {
-   
+   const itemsFromStorage = getItemsFromStorage();
 }
 
 
