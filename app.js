@@ -103,7 +103,11 @@ function removeItemFromStorage(item) {
    const itemsFromStorage = getItemsFromStorage();
 
    // Filter out items to be removed
-   itemsFromStorage = itemsFromStorage.filter();
+   itemsFromStorage = itemsFromStorage.filter((i) => 
+   i !== item );
+
+   // Reset to local storage
+   localStorage.setItem('items', JSON.stringify(itemsFromStorage));
 }
 
 
