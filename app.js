@@ -102,7 +102,8 @@ function removeItem(item) {
 function removeItemFromStorage(item) {
    const itemsFromStorage = getItemsFromStorage();
 
-   console.log(itemsFromStorage);
+   // Filter out items to be removed
+   itemsFromStorage = itemsFromStorage.filter();
 }
 
 
