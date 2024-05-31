@@ -117,6 +117,8 @@ function clearItems() {
    }
 
    // Clear from localStorage
+   localStorage.removeItem('items');
+
    checkUI();
 }
 
