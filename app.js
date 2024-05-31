@@ -100,7 +100,7 @@ function removeItem(item) {
 
 
 function removeItemFromStorage(item) {
-   const itemsFromStorage = getItemsFromStorage();
+   let itemsFromStorage = getItemsFromStorage();
 
    // Filter out items to be removed
    itemsFromStorage = itemsFromStorage.filter((i) => 
@@ -115,6 +115,8 @@ function clearItems() {
    while (itemList.firstChild) {
     itemList.removeChild(itemList.firstChild);
    }
+
+   // Clear from localStorage
    checkUI();
 }
 
