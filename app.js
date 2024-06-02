@@ -3,7 +3,7 @@ const itemInput = document.getElementById('item-input');
 const itemList = document.getElementById('item-list');
 const clearBtn = document.getElementById('clear');
 const itemFilter = document.getElementById('filter');
-
+let isEditMode = false;
 
 
 function displayItems() {
@@ -84,6 +84,8 @@ function createIcon(classes) {
 function onClickItem(e) {
    if (e.target.parentElement.classList.contains('remove-item')) {
       removeItem(e.target.parentElement.parentElement);
+   } else {
+      console.log(1);
    }
 }
 
