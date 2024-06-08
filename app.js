@@ -91,7 +91,7 @@ function onClickItem(e) {
 
 
 function setItemToEdit() {
-
+  isEditMode = true;
 }
 
 
