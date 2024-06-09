@@ -16,6 +16,10 @@ body {
     box-shadow: 10px 10px rgb(92, 93, 93);
 }  
   
+.edit-mode {
+  color:#ccc;
+}
+
   ul {
     list-style-type: none;  
 }
