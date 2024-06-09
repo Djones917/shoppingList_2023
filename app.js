@@ -92,7 +92,7 @@ function onClickItem(e) {
 
 function setItemToEdit(item) {
   isEditMode = true;
-  item.style.color = '#ccc';
+  item.classList.add('edit-mode');
 }
 
 
