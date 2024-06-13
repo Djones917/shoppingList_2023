@@ -94,6 +94,7 @@ function onClickItem(e) {
 function setItemToEdit(item) {
   isEditMode = true;
   item.classList.add('edit-mode');
+  formBtn.innerHTML = '<i class="fa-solid fa-pen"></i> Update Item';
 }
 
 
