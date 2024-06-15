@@ -23,6 +23,11 @@ function onAddItemSubmit(e) {
      alert('Add an item');
      return;
   }   
+  // check for edit mode
+  if (isEditMode) {
+    
+  }
+
   // create item DOM element  
   addItemToDom(newItem);
 
