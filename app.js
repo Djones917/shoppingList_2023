@@ -26,6 +26,7 @@ function onAddItemSubmit(e) {
   // check for edit mode
   if (isEditMode) {
     const itemToEdit = itemList.querySelector('.edit-mode');
+    removeItemFromStorage(itemToEdit.textContent);
   }
 
   // create item DOM element  
