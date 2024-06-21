@@ -29,6 +29,8 @@ function onAddItemSubmit(e) {
 
     removeItemFromStorage(itemToEdit.textContent);
     itemToEdit.classList.remove('edit-mode');
+    itemToEdit.remove();
+    isEditMode = false;
   }
 
   // create item DOM element  
