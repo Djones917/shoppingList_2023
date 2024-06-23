@@ -170,6 +170,8 @@ function checkUI() {
       clearBtn.style.display = 'block';
       itemFilter.style.display = 'block';
    }
+
+   isEditMode = false;
 }
 
 // INITIALIZE APP - SO event listeners are not in the glogal scope
