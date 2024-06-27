@@ -171,7 +171,7 @@ function checkUI() {
       itemFilter.style.display = 'block';
    }
 
-   formBtn.innerHTML = '<i class="fa-solid fa-plus"></i> ';
+   formBtn.innerHTML = '<i class="fa-solid fa-plus"></i> Add Item';
 
    isEditMode = false;
 }
