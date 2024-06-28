@@ -162,6 +162,7 @@ function filterItems(e) {
 
 
 function checkUI() {
+   itemInput.value = '';
    const items = itemList.querySelectorAll('li');   
    if (items.length ===0) {
       clearBtn.style.display = 'none';
@@ -172,6 +173,7 @@ function checkUI() {
    }
 
    formBtn.innerHTML = '<i class="fa-solid fa-plus"></i> Add Item';
+   formBtn.style.backgroundColor = '#03FF3D';
 
    isEditMode = false;
 }
