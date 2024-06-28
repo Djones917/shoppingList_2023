@@ -164,7 +164,7 @@ function filterItems(e) {
 function checkUI() {
    itemInput.value = '';
    const items = itemList.querySelectorAll('li');   
-   if (items.length ===0) {
+   if (items.length === 0) {
       clearBtn.style.display = 'none';
       itemFilter.style.display = 'none';
    } else {
