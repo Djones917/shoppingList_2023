@@ -173,7 +173,7 @@ function checkUI() {
    }
 
    formBtn.innerHTML = '<i class="fa-solid fa-plus"></i> Add Item';
-   formBtn.style.backgroundColor = '#03FF3D';
+   formBtn.style.backgroundColor = '#ff03d5';
 
    isEditMode = false;
 }
