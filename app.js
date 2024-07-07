@@ -100,6 +100,9 @@ function onClickItem(e) {
    }
 }
 
+function doesItemExist(item) {
+  const itemsFromStorage = getItemsFromStorage();
+}
 
 function setItemToEdit(item) {
   isEditMode = true;
